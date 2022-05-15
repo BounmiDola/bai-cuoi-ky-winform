@@ -57,7 +57,6 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ádawdadToolStripMenuItem,
@@ -68,7 +67,8 @@
             this.đăngXuấtToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1217, 32);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
+            this.menuStrip1.Size = new System.Drawing.Size(811, 24);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -76,7 +76,7 @@
             // 
             this.ádawdadToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ádawdadToolStripMenuItem.Name = "ádawdadToolStripMenuItem";
-            this.ádawdadToolStripMenuItem.Size = new System.Drawing.Size(113, 28);
+            this.ádawdadToolStripMenuItem.Size = new System.Drawing.Size(82, 22);
             this.ádawdadToolStripMenuItem.Text = "Nhân Viên ";
             this.ádawdadToolStripMenuItem.Click += new System.EventHandler(this.EmployeeToolStripMenuItem_Click);
             // 
@@ -84,7 +84,7 @@
             // 
             this.toolStripMenuItem1.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(133, 28);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(96, 22);
             this.toolStripMenuItem1.Text = "Ca Làm Việc ";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
@@ -92,7 +92,7 @@
             // 
             this.hàngHóaToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hàngHóaToolStripMenuItem.Name = "hàngHóaToolStripMenuItem";
-            this.hàngHóaToolStripMenuItem.Size = new System.Drawing.Size(100, 28);
+            this.hàngHóaToolStripMenuItem.Size = new System.Drawing.Size(73, 22);
             this.hàngHóaToolStripMenuItem.Text = "Hàng hóa";
             this.hàngHóaToolStripMenuItem.Click += new System.EventHandler(this.hàngHóaToolStripMenuItem_Click);
             // 
@@ -100,7 +100,7 @@
             // 
             this.ádawdaaToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ádawdaaToolStripMenuItem.Name = "ádawdaaToolStripMenuItem";
-            this.ádawdaaToolStripMenuItem.Size = new System.Drawing.Size(140, 28);
+            this.ádawdaaToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.ádawdaaToolStripMenuItem.Text = "Nhà Cung Cấp";
             this.ádawdaaToolStripMenuItem.Click += new System.EventHandler(this.ádawdaaToolStripMenuItem_Click);
             // 
@@ -108,7 +108,7 @@
             // 
             this.billNhậpHàngToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.billNhậpHàngToolStripMenuItem.Name = "billNhậpHàngToolStripMenuItem";
-            this.billNhậpHàngToolStripMenuItem.Size = new System.Drawing.Size(145, 28);
+            this.billNhậpHàngToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
             this.billNhậpHàngToolStripMenuItem.Text = "Bill Nhập hàng";
             this.billNhậpHàngToolStripMenuItem.Click += new System.EventHandler(this.billNhậpHàngToolStripMenuItem_Click);
             // 
@@ -116,19 +116,21 @@
             // 
             this.đăngXuấtToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(114, 28);
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(85, 22);
             this.đăngXuấtToolStripMenuItem.Text = "Đăng Xuất ";
             this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.LogoutToolStripMenuItem_Click);
             // 
             // MENU
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::bai_cuoi_ky_winform.Properties.Resources.thiet_ke_noi_that_coffee_shop_04;
-            this.ClientSize = new System.Drawing.Size(1217, 709);
+            this.ClientSize = new System.Drawing.Size(811, 461);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "MENU";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MENU";
             this.Load += new System.EventHandler(this.MENU_Load);
             this.menuStrip1.ResumeLayout(false);
