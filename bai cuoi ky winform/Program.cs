@@ -16,7 +16,7 @@ namespace bai_cuoi_ky_winform
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MENU());
+            Application.Run(new Login());
         }
     }
 }
