@@ -38,6 +38,7 @@
             this.ádawdaaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.billNhậpHàngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,6 +61,7 @@
             this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.adminToolStripMenuItem,
             this.ádawdadToolStripMenuItem,
             this.toolStripMenuItem1,
             this.hàngHóaToolStripMenuItem,
@@ -68,7 +70,7 @@
             this.đăngXuấtToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1217, 32);
+            this.menuStrip1.Size = new System.Drawing.Size(1217, 30);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -76,7 +78,7 @@
             // 
             this.ádawdadToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ádawdadToolStripMenuItem.Name = "ádawdadToolStripMenuItem";
-            this.ádawdadToolStripMenuItem.Size = new System.Drawing.Size(113, 28);
+            this.ádawdadToolStripMenuItem.Size = new System.Drawing.Size(113, 26);
             this.ádawdadToolStripMenuItem.Text = "Nhân Viên ";
             this.ádawdadToolStripMenuItem.Click += new System.EventHandler(this.EmployeeToolStripMenuItem_Click);
             // 
@@ -84,7 +86,7 @@
             // 
             this.toolStripMenuItem1.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(133, 28);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(133, 26);
             this.toolStripMenuItem1.Text = "Ca Làm Việc ";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
@@ -92,7 +94,7 @@
             // 
             this.hàngHóaToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hàngHóaToolStripMenuItem.Name = "hàngHóaToolStripMenuItem";
-            this.hàngHóaToolStripMenuItem.Size = new System.Drawing.Size(100, 28);
+            this.hàngHóaToolStripMenuItem.Size = new System.Drawing.Size(100, 26);
             this.hàngHóaToolStripMenuItem.Text = "Hàng hóa";
             this.hàngHóaToolStripMenuItem.Click += new System.EventHandler(this.hàngHóaToolStripMenuItem_Click);
             // 
@@ -100,7 +102,7 @@
             // 
             this.ádawdaaToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ádawdaaToolStripMenuItem.Name = "ádawdaaToolStripMenuItem";
-            this.ádawdaaToolStripMenuItem.Size = new System.Drawing.Size(140, 28);
+            this.ádawdaaToolStripMenuItem.Size = new System.Drawing.Size(140, 26);
             this.ádawdaaToolStripMenuItem.Text = "Nhà Cung Cấp";
             this.ádawdaaToolStripMenuItem.Click += new System.EventHandler(this.ádawdaaToolStripMenuItem_Click);
             // 
@@ -108,7 +110,7 @@
             // 
             this.billNhậpHàngToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.billNhậpHàngToolStripMenuItem.Name = "billNhậpHàngToolStripMenuItem";
-            this.billNhậpHàngToolStripMenuItem.Size = new System.Drawing.Size(145, 28);
+            this.billNhậpHàngToolStripMenuItem.Size = new System.Drawing.Size(145, 26);
             this.billNhậpHàngToolStripMenuItem.Text = "Bill Nhập hàng";
             this.billNhậpHàngToolStripMenuItem.Click += new System.EventHandler(this.billNhậpHàngToolStripMenuItem_Click);
             // 
@@ -116,9 +118,17 @@
             // 
             this.đăngXuấtToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(114, 28);
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(114, 26);
             this.đăngXuấtToolStripMenuItem.Text = "Đăng Xuất ";
             this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.LogoutToolStripMenuItem_Click);
+            // 
+            // adminToolStripMenuItem
+            // 
+            this.adminToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
+            this.adminToolStripMenuItem.Size = new System.Drawing.Size(79, 28);
+            this.adminToolStripMenuItem.Text = "Admin";
+            this.adminToolStripMenuItem.Click += new System.EventHandler(this.adminToolStripMenuItem_Click);
             // 
             // MENU
             // 
@@ -129,6 +139,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MENU";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MENU";
             this.Load += new System.EventHandler(this.MENU_Load);
             this.menuStrip1.ResumeLayout(false);
@@ -149,5 +160,6 @@
         private System.Windows.Forms.ToolStripMenuItem ádawdaaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem billNhậpHàngToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem đăngXuấtToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem adminToolStripMenuItem;
     }
 }

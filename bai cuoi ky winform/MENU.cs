@@ -70,5 +70,12 @@ namespace bai_cuoi_ky_winform
         {
             
         }
+
+        private void adminToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Admin f = new Admin();
+            this.Hide();
+            f.Show();
+        }
     }
 }
